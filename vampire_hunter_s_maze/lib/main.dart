@@ -9,6 +9,10 @@ class VampireHuntersMazeApp extends StatelessWidget {
   const VampireHuntersMazeApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(theme: ThemeData.dark(), home: const HomeView());
+    return MaterialApp(
+      theme: ThemeData.dark(),
+      home: const HomeView(),
+      debugShowCheckedModeBanner: false,
+    );
   }
 }
